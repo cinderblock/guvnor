@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:hawk:20160119':
+    - stylizer > request > hawk:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:hoek:20180212':
+    - hapi > subtext > content > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - hapi > subtext > pez > content > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > hawk > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+    - node-inspector > v8-debug > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:http-signature:20150122':
+    - stylizer > request > http-signature:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:lodash:20180130':
+    - node-inspector > biased-opener > browser-launcher2 > plist > xmlbuilder > lodash:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:mime:20170907':
+    - stylizer > request > form-data > mime:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:minimatch:20160620':
+    - stylizer > stylus > glob > minimatch:
+        patched: '2019-05-03T05:48:27.730Z'
+    - templatizer-hbs > glob > minimatch:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:ms:20170412':
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:request:20160119':
+    - stylizer > request:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:tunnel-agent:20170305':
+    - stylizer > request > tunnel-agent:
+        patched: '2019-05-03T05:48:27.730Z'
+  'npm:uglify-js:20151024':
+    - moonboots_hapi > moonboots > browserify > umd > ruglify > uglify-js:
+        patched: '2019-05-03T05:48:27.730Z'
+    - moonboots_hapi > moonboots > browserify > umd > uglify-js:
+        patched: '2019-05-03T05:48:27.730Z'
+    - templatizer-hbs > handlebars > uglify-js:
+        patched: '2019-05-03T05:48:27.730Z'
