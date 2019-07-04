@@ -16,7 +16,9 @@
     "lint": "standard",
     "test": "istanbul cover _mocha",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "postinstall": "chmod +x scripts/init/sysv/guvnor"
+    "postinstall": "chmod +x scripts/init/sysv/guvnor",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "ampersand-array-input-view": "^3.0",
@@ -91,7 +93,8 @@
     "uuid": "^2.0",
     "wantsit": "^2.0",
     "wildemitter": "^1.0",
-    "winston": "^1.0.0"
+    "winston": "^1.0.0",
+    "snyk": "^1.189.0"
   },
   "optionalDependencies": {
     "execSync": "^1.0",
@@ -168,5 +171,6 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "snyk": true
 }
